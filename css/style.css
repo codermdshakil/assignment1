@@ -1,0 +1,269 @@
+ /* google fonts linked here  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color:#777;
+    font-size: 18px;
+}
+
+/* home-section starts here  */
+.home-content{
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+}
+.scroll{
+    margin: 15px 0px;
+}
+.left-items,
+.right-items{
+    width: 50%;
+    padding-left:8%;
+}
+.right-items img{
+    width: 400px;
+    display:block;
+    margin: 50px auto;
+}
+.btn-design{
+    padding: 9px 15px;
+    border: none;
+    outline: none;
+    background:#0abde3;
+    color: white;
+    font-size:16px;
+    margin:10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.title-box{
+    border-left: 3px solid #0abde3;
+    padding-left: 5px;
+    margin-left: 3px;
+    margin-bottom: 6px;
+}
+.title{
+
+    color:#273c75;
+    
+}
+.hero-title{
+    font-size:45px;
+    color:#6D214F;
+}
+.left-items p{
+    color: #777;
+    font-size: 18px;
+}
+/* home-section ends here  */
+
+/* sevices-section starts here  */
+.services-section{
+    padding:40px 0px 30px 0px;
+}
+.services-title h1{
+    text-align: center;
+    font-size:40px;
+    color:#2C3A47;
+}
+.services-title span{
+    color:#1B9CFC;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+}
+.first-box img{
+    width:66px;
+}
+.first-box h2{
+   margin: 5px 0px;
+}
+.secound-box h2{
+   margin: 5px 0px;
+}
+.third-box h2{
+   margin: 5px 0px;
+}
+.first-box,
+.secound-box,
+.third-box{
+    height: 100%;
+    width: 25%;
+    margin-right: 30px;
+    padding:30px;
+    border-radius: 20px;
+}
+.third-box{
+    margin-right: 0;
+}
+
+.first-box,
+.secound-box,
+.third-box h2{
+    color:#2C3A47;
+}
+.first-box{
+    background:#55e6c280;
+}
+.secound-box{
+ 
+    background: #fec95793;
+}
+
+.third-box{
+    background:#00d3d386;
+}
+/* sevices-section ends here  */
+/* about me section starts here  */
+.abouot-me{
+    background-image: url(../img/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 210px;
+    margin-top: 50px;
+    margin-left:180px;
+    margin-bottom:60px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.about-left img{
+    width: 340px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+.about-left,
+.about-right{
+    width: 50%;
+}
+.about-right{
+    padding-right: 50px;
+}
+.about-right h2{
+    font-size: 40px;
+    color:#2a4661;
+    margin-bottom: 10px;
+}
+.about-right p{
+    font-size: 18px;
+}
+/* about me section ends here  */
+/* join our community section starts here  */
+.join-section{
+    background-image: url(../img/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: 210px;
+    padding-top: 120px;
+    margin-bottom:80px;
+    margin-right:40px;
+} 
+.join-wrapper{
+    display: flex;
+    align-items: center;
+}
+.join-right img{
+    width: 340px;
+    display:block;
+    margin: auto;
+}
+.join-left{
+    padding-left:8%;
+}
+.join-left h2{
+    font-size: 37px;
+    color:#2a4661;
+    margin: 5px 0px;
+}
+.join-left,
+.join-right{
+    width: 50%;
+}
+/* join our community section ends here  */
+/* application section starts here  */
+.application-section{
+    padding:40px 0px;
+}
+.apk-title{
+    text-align: center;
+    font-size:35px;
+    color:#2a4661;
+    padding: 20px 0px;
+}
+.apk-title span{
+    color:#1B9CFC;
+}
+.application-wrapper{
+    display: flex;
+    align-items: center;
+}
+.left-item-Apk img{
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+.right-item-apk{
+    padding-right: 8%;
+}
+.left-item-Apk,
+.right-item-apk{
+    width: 50%;
+}
+.main-way{
+    font-size:35px;
+    color:#2a4661;
+}
+.way{
+    color:#1B9CFC;
+}
+/* application section ends here  */
+/* footer-section starts here  */
+.footer-sections{
+    color: white;
+    background:#0b0d17;
+    padding:45px 0px;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content h2{
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin: 8px 0px;
+}
+.year{
+    color:#ff5959;
+}
+.credit{
+    color: white;
+}
+.credit a{
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    margin:5px 0px;
+}
+
+/* footer-section ends here  */
